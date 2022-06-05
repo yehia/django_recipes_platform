@@ -64,5 +64,7 @@
   "workbench.iconTheme": "vscode-icons",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
 }
