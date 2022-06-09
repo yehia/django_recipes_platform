@@ -67,4 +67,5 @@
   "workbench.colorTheme": "Dracula",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
 }
