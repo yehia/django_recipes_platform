@@ -95,8 +95,8 @@
                     Tags:
                     {% for tag in recipe.tags.all %}
                         <a href="{% url 'recipes:tag' tag.slug %}">
-                            {{ tag.name }}
-                        </a>, 
+                            {{tag.name}},
+                        </a>
                     {% endfor %}
                 </p>
             {% endif %}
