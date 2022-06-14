@@ -39,12 +39,12 @@ urlpatterns = [
     path('recipes/theory/', site.theory, name='theory'),
     path(
         'recipes/api/v2/',
-        api.recipe_api_list,
+        api.RecipeAPIv2List.as_view(),
         name='api_v2',
     ),
     path(
         'recipes/api/v2/<int:pk>/',
-        api.recipe_api_detail,
+        api.RecipeAPIv2Detail.as_view(),
         name='api_v2_detail',
     ),
     path(
